@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Welcome to the Ministry of Elections in Sri Lanka</h1>
+        <p>We are providing you with the opportunity to vote for the future of Sri Lanka.</p>
+        <a class="btn btn-dark" href="{% url 'voting:index' %}">
+            View Available Voting!
+        </a>
+    </div>
+</div>
+
+{% endblock content %}
